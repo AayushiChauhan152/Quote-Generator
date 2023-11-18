@@ -1,0 +1,86 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background: #bbc6fa;
+}
+.container {
+  width: 700px;
+  background-color: cadetblue;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 40px;
+  border-radius: 10px;
+  text-align: center;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+}
+
+.container h2 {
+  font-size: 32px;
+  margin-bottom: 40px;
+  position: relative;
+}
+.container h2 ::after {
+  content: "";
+  width: 75px;
+  height: 3px;
+  border-radius: 3px;
+  background: rgb(154, 196, 197);
+  position: absolute;
+  bottom: -10px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.container blockquote {
+  font-size: 26px;
+  min-height: 110px;
+}
+
+.container blockquote::before,
+.container blockquote::after {
+  content: '"';
+}
+
+.container span {
+  display: block;
+  margin-top: 10px;
+  float: right;
+  position: relative;
+}
+
+.container span::before {
+  content: "";
+  width: 20px;
+  height: 2px;
+  background: black;
+  position: absolute;
+  top: 50%;
+  left: -30%;
+}
+
+.container div {
+  width: 100%;
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+}
+
+.container button {
+  background: rgb(103, 116, 116);
+  color: white;
+  border-radius: 25px;
+  border: none;
+  width: 100px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 5px;
+  cursor: pointer;
+  font-size: 15px;
+}
