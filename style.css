@@ -4,11 +4,11 @@
   box-sizing: border-box;
 }
 body {
-  background: #bbc6fa;
+  background: #1b1b42;
 }
 .container {
   width: 700px;
-  background-color: cadetblue;
+  background-color: #9695ca;
   position: absolute;
   top: 50%;
   left: 50%;
@@ -71,7 +71,7 @@ body {
 }
 
 .container button {
-  background: rgb(103, 116, 116);
+  background: #1b1b42;
   color: white;
   border-radius: 25px;
   border: none;
